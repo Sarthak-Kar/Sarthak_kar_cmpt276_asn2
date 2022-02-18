@@ -21,7 +21,7 @@ async function getdata() {
     document.getElementById("box").style.opacity = target['opacity']/100;
     var new_width = target['width']+100;
     document.getElementById("box").style.width = new_width+"px";
-    var new_height = target['width']+100;
+    var new_height = target['height']+100;
     document.getElementById("box").style.height = new_height+"px";
     document.getElementById("preview_name").innerHTML = target['name'];   
 }
