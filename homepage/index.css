@@ -1,0 +1,98 @@
+th {
+  font-family: georgia;
+  font-size: 14px;
+  background-color: #dddddd;
+  width: 150px;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+td {
+  font-family: georgia;
+  font-size: 14px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+#mytable{
+  position: absolute;
+  left:110px;
+  top:140px;
+}
+
+.but {
+  background-color: #b51119;
+  color: white;
+  padding: 6px 6px;
+  border: none;
+  border-radius: 2.5px;
+  transition-duration: 0.4s;
+}
+
+.but:hover {
+  background-color: rgb(117, 7, 7);
+}
+
+#addrec {
+  position: absolute;
+  left: 250px;
+  top:90px;
+}
+
+#name {
+  position:absolute;
+  left:50px;
+  top: 50px;
+}
+
+#width {
+  position:absolute;
+  left:230px;
+  top:50px;
+  width: 50px;
+}
+
+#height {
+  position:absolute;
+  left:300px;
+  top:50px;
+  width:60px;
+}
+
+#color {
+  position:absolute;
+  left:380px;
+  top:50px;
+  width:80px;
+}
+
+#opacity {
+  position:absolute;
+  left:480px;
+  top:50px;
+  width: 60px;
+}
+
+.text {
+  transition-duration: 0.4s;
+}
+
+.text:hover {
+  color: rgb(76, 0, 255);
+  text-decoration: underline;
+}
+
+
+
+body {
+  background-color: #e9eff1;
+}
